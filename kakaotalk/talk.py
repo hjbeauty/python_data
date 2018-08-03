@@ -119,7 +119,7 @@ if __name__ == '__main__':
     while(True):
         if(user_input == '1'):
             show_time_usage(file_name, file_ver)
-        elif (user_input == '2'):
+        elif (user_input == '2'):  
             show_day_usage(file_name, file_ver)
         elif (user_input == '3'):
             count_word(file_name)
